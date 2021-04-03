@@ -1,0 +1,5 @@
+As for know i for this exercise i will use:
+1. SprintCore
+2. Spring Context
+3. Spring Beans
+4. Spring AOP

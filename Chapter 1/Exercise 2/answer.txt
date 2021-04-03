@@ -1,0 +1,11 @@
+Jenny can use Sprint Core for this approach.
+
+She will be having
+
+1. dao
+	EmployeeDao.java
+2. daoImpl
+	EmployeeDaoImpl.java
+3. model
+	Employee.java
+4. src/spring-config.xml file to map beans

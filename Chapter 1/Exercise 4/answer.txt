@@ -1,0 +1,22 @@
+Difference between EJB & Spring
+
+Specification	
+1. EJB is a specification of Java EE.
+2. Spring is a framework.
+
+Dependency Injection
+1. It can inject anything in the container including EJB Data sources, JMS Resources, and JPA Resources.
+2. It can inject anything including list, properties, map, and JNDI resources.
+
+Persistence
+1. It tightly integrated to JPA.
+2. It supports various persistence technologies such as JDBC, Hibernate, JPA, and iBatis.
+
+
+------------------------------
+Benefits of the Spring Framework
+
+1. Spring is a powerful framework, which address many common problems in Java EE. It includes support for managing business objects and exposing their services to presentation tier component.
+2. It facilitates good programming practice such as programming using interfaces instead of classes. Spring enables developers to develop enterprise applications using POJO and POJI model programming.
+3. It is modular, allowing you to use only those parts that you need. It allows us to just choose any part of it in isolation.
+4. It supports both XML- and annotation-based configuration.
