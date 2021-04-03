@@ -107,7 +107,7 @@ public class Index {
 			
 			return;	
 		}catch(Exception e) {
-			String message = "Error From: "+ App.class.getSimpleName() +" ["+Thread.currentThread().getStackTrace()[1].getMethodName()+"], Error Class: " + e.getClass().getSimpleName() + ", Message: "+ e.getMessage();
+			String message = "Error From: "+ this.getClass().getSimpleName() +" ["+Thread.currentThread().getStackTrace()[1].getMethodName()+"], Error Class: " + e.getClass().getSimpleName() + ", Message: "+ e.getMessage();
 			System.out.println(message);
 			return ;
 		}
