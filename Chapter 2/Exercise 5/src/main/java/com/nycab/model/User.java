@@ -1,9 +1,9 @@
-package com.departmentstore.model;
+package com.nycab.model;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class Customer implements Serializable{
+public class User implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	private Integer id;
@@ -11,7 +11,7 @@ public class Customer implements Serializable{
 	private Date dob;
 	private String phone;
 	
-	public Customer() {}
+	public User() {}
 
 	public Integer getId() {
 		return id;
@@ -91,7 +91,7 @@ public class Customer implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender
+		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender
 				+ ", dob=" + dob + ", email=" + email + ", userName=" + username
 				+ ", password=" + password + ", phone=" + phone + "]";
 	}
